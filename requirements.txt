@@ -1,0 +1,31 @@
+# ==========================================
+# PROJECT: YouTube MP3 Batch Downloader
+# VERSION: 2.0.0 (DENGAN FITUR TAMBAHAN)
+# ==========================================
+
+# ---------- CORE ----------
+yt-dlp>=2025.0.0
+
+# ---------- PROGRESS BAR ----------
+tqdm>=4.66.0
+
+# ---------- COLOR (BUAT TAMPILAN LEBIH KEREN) ----------
+colorama>=0.4.6
+
+# ---------- METADATA ID3 (UNTUK INFO MP3) ----------
+mutagen>=1.47.0
+
+# ---------- VALIDASI LINK ----------
+validators>=0.28.0
+
+# ==========================================
+# INSTALL SEMUA:
+# pip install -r requirements.txt
+# ==========================================
+
+# ==========================================
+# WAJIB INSTALL FFMPEG!
+# ==========================================
+# Windows: https://ffmpeg.org/download.html
+# Mac: brew install ffmpeg
+# Linux: sudo apt install ffmpeg -y
